@@ -1,6 +1,6 @@
-# cloak-actions
+# github-actions
 
-GitHub Actions for Cloak projects
+Actions shared by many projects.  Ported from https://github.com/BKWLD/cloak-actions.
 
 ## Usage
 
@@ -11,7 +11,7 @@ jobs:
   job_name:
     runs-on: ubuntu-latest
     steps:
-      - uses: bkwld/cloak-actions/install@v3
+      - uses: goodness/github-actions/install@v3
         # The following is optional
         with:
           cwd: packages/ugc-housekeeper

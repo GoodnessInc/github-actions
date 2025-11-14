@@ -11,7 +11,7 @@ jobs:
   job_name:
     runs-on: ubuntu-latest
     steps:
-      - uses: goodness/github-actions/install@v3
+      - uses: GoodnessInc/github-actions/install@v3
         # The following is optional
         with:
           cwd: packages/ugc-housekeeper
